@@ -83,7 +83,7 @@ $Iteration = 0
 "DarkGray", "Gray", "Green" | ForEach-Object {
     $Iteration++
     # Direction of the sweep
-    if ($Iteration -eq 1) {
+    if ($Iteration -eq 1 -or $Iteration -ge 3) {
         $Init = {$script:col = $MatrixSubTitle[0].Length - 1}
         $Cond = {$script:col -ge 0}
         $Iter = {$script:col--}
