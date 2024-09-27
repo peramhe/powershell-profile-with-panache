@@ -1,2 +1,2 @@
 # PowerShell profile template with panache
-![PowerShell for life](posh_for_life.gif)
+![PowerShell for life](posh_4_life.gif)
